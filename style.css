@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+
+body {
+    font-family: 'Ranchers', cursive;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(snow.jpg);
+    background-position: center center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.timer-container {
+    display: flex;
+}
+
+.timer-item {
+    padding: 0 20px;
+    text-align: center;
+    font-size: 5em;
+    line-height: 1;
+}
+.timer-item p {
+    margin: 0;
+
+}
+.timer-item span {
+    font-size: 1rem;
+}
+
