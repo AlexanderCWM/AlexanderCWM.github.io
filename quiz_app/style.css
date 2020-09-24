@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;    
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top: 100px;
+}
+
+.quiz-wrapper {
+    background-color: #DE3C3C;
+    max-width: 700px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.quiz-wrapper h1 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 20px;
+}
+.quiz-wrapper ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.quiz-wrapper li {
+
+}
+
+.quiz-wrapper label {
+    font-size: 2em;
+    cursor: pointer;
+}
+.btn {
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+    width: 100%;
+    display: block;
+    background: #EEA282;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #F5E0A3;
+}
